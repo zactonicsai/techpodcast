@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Project Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 antialiased py-16 px-4 sm:px-6">
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+        <symbol id="icon-arrow" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </symbol>
+    </svg>
+
+    <div class="max-w-4xl mx-auto">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+                Podcast Project Hub
+            </h1>
+            <p class="mt-4 text-lg text-gray-400">Navigation for all project assets</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <a href="/nameideas.html" 
+               class="group block bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700
+                      transition-all duration-300 transform hover:-translate-y-1 
+                      hover:shadow-blue-500/30 hover:border-blue-500">
+                
+                <h2 class="text-2xl font-bold text-blue-300 mb-2">
+                    Podcast Names
+                    <svg class="inline-block w-5 h-5 ml-2 opacity-70
+                                transition-transform duration-200 group-hover:translate-x-1">
+                        <use href="/nameideas.html"></use>
+                    </svg>
+                </h2>
+                <p class="text-gray-400">Browse a brainstormed list of names for the show.</p>
+            </a>
+
+            <a href="/topics.html" 
+               class="group block bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700
+                      transition-all duration-300 transform hover:-translate-y-1 
+                      hover:shadow-green-500/30 hover:border-green-500">
+                
+                <h2 class="text-2xl font-bold text-green-300 mb-2">
+                    Episode Topics
+                    <svg class="inline-block w-5 h-5 ml-2 opacity-70
+                                transition-transform duration-200 group-hover:translate-x-1">
+                        <use href="#icon-arrow"></use>
+                    </svg>
+                </h2>
+                <p class="text-gray-400">See potential episode ideas and discussion segments.</p>
+            </a>
+
+            <a href="/script01.html" 
+               class="group block bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700
+                      transition-all duration-300 transform hover:-translate-y-1 
+                      hover:shadow-yellow-500/30 hover:border-yellow-500">
+                
+                <h2 class="text-2xl font-bold text-yellow-300 mb-2">
+                    Example Script
+                    <svg class="inline-block w-5 h-5 ml-2 opacity-70
+                                transition-transform duration-200 group-hover:translate-x-1">
+                        <use href="#icon-arrow"></use>
+                    </svg>
+                </h2>
+                <p class="text-gray-400">Read a full, formatted script for a sample episode.</p>
+            </a>
+
+            <a href="/examples.html" 
+               class="group block bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700
+                      transition-all duration-300 transform hover:-translate-y-1 
+                      hover:shadow-red-500/30 hover:border-red-500">
+                
+                <h2 class="text-2xl font-bold text-red-300 mb-2">
+                    Example Podcasts
+                    <svg class="inline-block w-5 h-5 ml-2 opacity-70
+                                transition-transform duration-200 group-hover:translate-x-1">
+                        <use href="#icon-arrow"></use>
+                    </svg>
+                </h2>
+                <p class="text-gray-400">Review a list of existing tech podcasts for inspiration.</p>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
